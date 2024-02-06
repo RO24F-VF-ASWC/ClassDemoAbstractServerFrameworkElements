@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{60C986B5-E798-4EB5-99E3-F47A6ACC725A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{60C986B5-E798-4EB5-99E3-F47A6ACC725A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentsLibrary", "CommentsLibrary\CommentsLibrary.csproj", "{C686F0FB-4F77-4D51-86F7-BA244DFDFA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentsLibrary", "CommentsLibrary\CommentsLibrary.csproj", "{C686F0FB-4F77-4D51-86F7-BA244DFDFA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentsProgram", "CommentsProgram\CommentsProgram.csproj", "{DB2FE46A-4C40-4203-8072-F5DBD7EA74CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommentsProgram", "CommentsProgram\CommentsProgram.csproj", "{DB2FE46A-4C40-4203-8072-F5DBD7EA74CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracingExample", "TracingExample\TracingExample.csproj", "{88C6E132-8117-43D0-9047-7CF1E6C4C88D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DB2FE46A-4C40-4203-8072-F5DBD7EA74CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2FE46A-4C40-4203-8072-F5DBD7EA74CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2FE46A-4C40-4203-8072-F5DBD7EA74CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C6E132-8117-43D0-9047-7CF1E6C4C88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C6E132-8117-43D0-9047-7CF1E6C4C88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C6E132-8117-43D0-9047-7CF1E6C4C88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C6E132-8117-43D0-9047-7CF1E6C4C88D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
